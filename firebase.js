@@ -13,13 +13,13 @@
 
 import {
     initializeApp
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js";
+} from "https://www.gstatic.com/firebasejs/12.17.1/firebase-app.js";
 
 import {
     getAuth,
     onAuthStateChanged,
     signInAnonymously
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/12.17.1/firebase-auth.js";
 
 import {
     getDatabase,
@@ -30,7 +30,7 @@ import {
     runTransaction,
     serverTimestamp,
     set
-} from "https://www.gstatic.com/firebasejs/12.16.0/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/12.17.1/firebase-database.js";
 
 
 const firebaseConfig = {
